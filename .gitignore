@@ -1,0 +1,36 @@
+﻿# 编译 / 比特流
+*.bit
+*.hex
+*.mcs
+*.elf
+*.bin
+*.o
+*.obj
+__pycache__/
+*.pyc
+
+# EDA 输出
+**/outflow/
+**/work_*/
+**/*.qdb/
+**/*.vdb/
+**/*.rpt/
+*.vcd
+*.wlf
+**/transcript
+
+# 素材 / 隐私（绝不入库）
+**/证件*/
+**/学生证*/
+**/获奖*/
+*.mp4
+*.rar
+*.zip
+
+# 系统
+.DS_Store
+Thumbs.db
+*.bak
+*~
+.vscode/
+.idea/
